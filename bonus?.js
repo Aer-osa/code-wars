@@ -9,7 +9,12 @@
 function bonusTime(salary, bonus) {
     //Parameters salary, bonus
     //returns total
+    let str = `£${salary}`;
+    if(bonus === false) {
+        return 
     }
     //example: bonusTime(100000, false){
         //    return £100000
     // } 
+
+    //Pseudocode when bonus is true, the function retruns salary times 10, else the function returns just salary
