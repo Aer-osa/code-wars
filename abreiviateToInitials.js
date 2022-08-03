@@ -3,6 +3,7 @@ function abbrevName(name){
   //x beginning name
   //y ending initials
   const firstLetters = name
+    .toUpperCase(name)
     .split(' ')
     .map(word => word[0])
     .join('.');
